@@ -1,0 +1,56 @@
+div ul {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+  font-size: medium;
+}
+
+div div div {
+  color: black;
+  font-size: 20px;
+}
+div div div div {
+  margin-top: 10%;
+  margin-left: 30%;
+}
+div div img {
+  object-fit: cover; /* Do not scale the image */
+  object-position: 55% 35%; /*Center the image within the element */
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.p4, .p3, .p2, .p1 {
+  border: 2px;
+  border-radius: 10%;
+}
+
+.p4:hover, .p3:hover, .p2:hover, .p1:hover {
+  box-shadow: 0 0 5px 10px;
+  transform: translateY(-30px);
+  transform: translateX(-30px);
+}
+
+.p1 {
+  width: 450px;
+}
+
+.p2 {
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.p3 {
+  width: 700px;
+}
+
+.p4 {
+  width: 350px;
+  margin-left: 40px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=style_var.css.map */
